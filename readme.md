@@ -36,28 +36,22 @@ Clone or copy this repo, and make sure you have:
 - The YAML config files filled as needed (samples are provided)
 
 ### 2️⃣ Start the VM
-
 vagrant up
 
 Vagrant will:
+  - Create the VM
+  - Attach disks
+  - Attach ISOs
+  - Configure network and ports
+  - Sync your host folder
 
-Create the VM
-
-Attach disks
-
-Attach ISOs
-
-Configure network and ports
-
-Sync your host folder
-
-SSH into the VM:
+#### SSH into the VM:
 vagrant ssh
 
- Stop the VM:
+#### Stop the VM:
 vagrant halt
 
-Destroy and cleanup:
+#### Destroy and cleanup:
 vagrant destroy
 
 This will also automatically delete generated virtual disks.
