@@ -6,15 +6,14 @@ All VM attributes, disks, ISOs, network ports, and sync folders are defined exte
 
 ## 📦 Project Structure
 
-
-91cents/\n 
-├── Vagrantfile\n
-├── vm_config.yml # VM name, hostname, OS box, private IP, sync folder \n
-├── network.yml # Forwarded ports (optional, can be empty or omitted) \n
-├── isos.yml # ISO files to attach (path, port, device) \n
-├── disks.yml # Virtual disks to create and attach (filename, size, port) \n
-├── iso/ # ISO files (ignored from git) \n
-└── disks/ # Generated disks (ignored from git) \n
+91cents
+├── Vagrantfile
+├── vm_config.yml # VM name, hostname, OS box, private IP, sync folder
+├── network.yml # Forwarded ports (optional, can be empty or omitted) 
+├── isos.yml # ISO files to attach (path, port, device) 
+├── disks.yml # Virtual disks to create and attach (filename, size, port) 
+├── iso/ # ISO files (ignored from git)
+└── disks/ # Generated disks (ignored from git)
 
 
 ## ✅ Features
