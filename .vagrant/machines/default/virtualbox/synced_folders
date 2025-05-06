@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"disabled":false,"guestpath":"/vagrant","hostpath":"G:/My Drive/projects/VagrantSyncDir","type":"rsync","create":true,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

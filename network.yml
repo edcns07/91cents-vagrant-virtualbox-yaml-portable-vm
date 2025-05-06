@@ -1,0 +1,4 @@
+forwarded_ports:
+  - { guest: 80, host: 8081 }
+  - { guest: 9090, host: 9091 }
+  - { guest: 22, host: 2201, id: "ssh" }

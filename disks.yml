@@ -1,0 +1,16 @@
+disks:
+  - filename: "disk1"
+    size: 2
+    port: 5
+  - filename: "disk2"
+    size: 2
+    port: 6
+  - filename: "disk3"
+    size: 5
+    port: 25
+  - filename: "disk4"
+    size: 5
+    port: 26
+  - filename: "disk5"
+    size: 5
+    port: 27

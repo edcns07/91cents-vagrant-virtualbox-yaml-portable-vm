@@ -1,0 +1,10 @@
+**.swp
+*.log
+*-artifact-*
+iso/
+disks/
+eds_backup/
+generate_ssh_config.sh
+rsync-guest2host.sh
+ssh_config
+ssh_config.template

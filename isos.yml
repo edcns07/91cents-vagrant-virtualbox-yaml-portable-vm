@@ -1,0 +1,9 @@
+isos:
+  - name: "centos_dvd"
+    path: "G:/My Drive/projects/iso/CentOS-Stream-9-latest-x86_64-dvd1.iso"
+    port: 0
+    device: 1
+  - name: "guest_additions"
+    path: "G:/My Drive/projects/iso/VBoxGuestAdditions.iso"
+    port: 1
+    device: 0

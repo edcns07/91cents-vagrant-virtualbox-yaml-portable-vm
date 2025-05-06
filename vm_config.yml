@@ -1,0 +1,6 @@
+vm:
+  name: "91cents"
+  hostname: "91cents"
+  box: "generic/centos9s"
+  private_ip: "192.168.5.11"
+  sync_folder: "G:/My Drive/projects/VagrantSyncDir"
