@@ -1,6 +1,7 @@
 **.swp
 *.log
 *-artifact-*
+.vagrant/
 iso/
 disks/
 eds_backup/
