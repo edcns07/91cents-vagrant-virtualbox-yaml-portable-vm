@@ -38,12 +38,23 @@ Key Use Cases
 ## ✅ Features
 
 - Modular and clean YAML-based configuration
-- Supports automatic disk creation and cleanup
-- ISO file attachment at boot (CentOS DVD, VBoxGuestAdditions, etc)
+  All VM definitions (CPU, memory, disks, network) are externalized in YAML for clarity and version control.
+- Automatic disk creation and cleanup
+  Dynamically attaches/removes storage based on YAML definitions.
+- ISO file attachment at boot
+  Supports CentOS/RHEL installation media, VBoxGuestAdditions, or other ISOs automatically.
 - Configurable private IP and hostname
-- Configurable forwarded ports (via `network.yml`)
-- Sync folder from host to guest (via rsync)
-- Manual sync from guest to host (`rsync-pull.sh`)
+  Ensures predictable networking and consistent hostnames for Ansible inventory mapping.
+- Configurable forwarded ports (via network.yml)
+  Exposes guest services (SSH, HTTP, etc.) directly to the host.
+- Rsync-based folder synchronization
+  Host-to-guest sync (via rsync) and optional guest-to-host manual sync (rsync-pull.sh).
+- Integrated Portable Git Bash Environment (Windows) 
+    - Provides a self-contained Linux-like shell for running  Vagrant, and Git without installation.
+    - Includes custom startup scripts (.bashrc, .bash_profile, .git-prompt.sh) for clean prompts and shortcuts.
+    - Configures a consistent $HOME (e.g., /home/edsan) to maintain stable paths for SSH keys, inventory files, and Git configs.
+    - Compatible with rsync, and Python environments once manually installed.
+    - Enables full Ansible automation, VM provisioning, and certification practice labs (e.g., RHCSA/RHCE, EX294, DevOps automation).
 
 ---
 
